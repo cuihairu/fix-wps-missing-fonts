@@ -16,7 +16,7 @@ if [ ! -f "${TempFile}" ];then
 	exit 1
 fi
 
-sudo tar -xvf ${TempFile} -C  --strip-components 1
+sudo tar -xvf ${TempFile} -C ${FontHome} --strip-components 1
 sudo chown root:root -R ${FontHome}
 sudo chmod 644 ${FontHome}/* 
 
