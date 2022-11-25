@@ -6,6 +6,6 @@
 ## how use
 
 ```bash
-sh -c "$(wget https://raw.githubusercontent.com/cuihairu/fix-wps-missing-fonts/main/fix-missing-font.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/chuihairu/fix-wps-missing-fonts/main/fix-missing-font.sh -O -)"
 ```
 
